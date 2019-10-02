@@ -1,0 +1,24 @@
+
+=== Wed Aug 28 23:42:13 2019
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 1.0.8 to 1.1.0
+
+=== Sun Sep  8 21:00:29 2019
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.timeline from version 1.1.0 to 1.2.1
+
+=== Fri Sep 13 10:26:11 2019
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.vscode from version 1.0.7 to 1.1.0

@@ -1,0 +1,799 @@
+fileFormatVersion: 2
+guid: 1c88c9909343e784f929d8d351253030
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 498558588502977003
+    second: JD2D_0
+  - first:
+      213: 8149307091498235766
+    second: JD2D_1
+  - first:
+      213: 214233844807876059
+    second: JD2D_2
+  - first:
+      213: -869328183115922146
+    second: JD2D_3
+  - first:
+      213: 863074053794214319
+    second: JD2D_4
+  - first:
+      213: 5941663292911361036
+    second: JD2D_5
+  - first:
+      213: -4241913817961858997
+    second: JD2D_6
+  - first:
+      213: -4450615542149408718
+    second: JD2D_7
+  - first:
+      213: 7244521566999712438
+    second: JD2D_8
+  - first:
+      213: -5503051713028522490
+    second: JD2D_9
+  - first:
+      213: -2538694757651411385
+    second: JD2D_10
+  - first:
+      213: -3455066441780862695
+    second: JD2D_11
+  - first:
+      213: 3717981166624583088
+    second: JD2D_12
+  - first:
+      213: 2769104904243979475
+    second: JD2D_13
+  - first:
+      213: -5002534799817054093
+    second: JD2D_14
+  - first:
+      213: 4994974448404614101
+    second: JD2D_15
+  - first:
+      213: -4274712359715249365
+    second: JD2D_16
+  - first:
+      213: -2440215753345647758
+    second: JD2D_17
+  - first:
+      213: 3494997171304108788
+    second: JD2D_18
+  - first:
+      213: 9102990669011940002
+    second: JD2D_19
+  - first:
+      213: 9125738223382819943
+    second: JD2D_20
+  - first:
+      213: 5714985925224657262
+    second: JD2D_21
+  - first:
+      213: 3343571166585710466
+    second: JD2D_22
+  - first:
+      213: 8272782750341293061
+    second: JD2D_23
+  - first:
+      213: 9114315217830872595
+    second: JD2D_24
+  - first:
+      213: 3479117730829562091
+    second: JD2D_25
+  - first:
+      213: -1948748472364147865
+    second: JD2D_26
+  - first:
+      213: 3911034342657640906
+    second: JD2D_27
+  - first:
+      213: -5477223720562272977
+    second: JD2D_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JD2D_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 970
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b462d8fd384cc4fa0a97465cd7edf7
+      internalID: 498558588502977003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_1
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 207
+        width: 941
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad7acda996e4b643aa3c5abae6ff2bc
+      internalID: 8149307091498235766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_2
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 268
+        width: 149
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94201d87e4632124b9678e8f27df7607
+      internalID: 214233844807876059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_3
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 314
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2231d8f73db4d409932dc0e5675a17
+      internalID: -869328183115922146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_4
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 306
+        width: 272
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724ae95bec586d94ca4c51c36d732459
+      internalID: 863074053794214319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_5
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 0
+        width: 193
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eb05b264479a748adcf853e06b721e
+      internalID: 5941663292911361036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1444
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b2e08c3d6e33843a3fe188d1d20806
+      internalID: -4241913817961858997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_7
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 141
+        width: 823
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf75ce171e9b9ca4d9ac5a11d23df38e
+      internalID: -4450615542149408718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_8
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 90
+        width: 853
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded3dddb9817ddc4abc93cc3959cde68
+      internalID: 7244521566999712438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_9
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 0
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fd90cc74e192e43a31c1ccba8c9854
+      internalID: -5503051713028522490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_10
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 21
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad93c28114cb9b4ea421e25b1fe899e
+      internalID: -2538694757651411385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_11
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 0
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1cc6fc1aafb874fa75b088d0b1c949
+      internalID: -3455066441780862695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_12
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 21
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ebfcb0553d5634cbf9f959f9cd1dde
+      internalID: 3717981166624583088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_13
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 0
+        width: 40
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb39dc00635ccd489f738cf2449c0d0
+      internalID: 2769104904243979475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_14
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 0
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0d3b559527a064d909b6cc42142bd4
+      internalID: -5002534799817054093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_15
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 20
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a5dac51dea37c4ab3165383d4434c7
+      internalID: 4994974448404614101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_16
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 0
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6c4f4167ea37344bce4111f556f51d
+      internalID: -4274712359715249365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_17
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 20
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5cf61283da83a41a7fbe26e67051c0
+      internalID: -2440215753345647758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_18
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 0
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efbeab4308497f4aa65adda06cd66b9
+      internalID: 3494997171304108788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_19
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 21
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30d37cd42572234dace3f8a4f2f442c
+      internalID: 9102990669011940002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_20
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 0
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870888a802158fa4aa47d3a9ffa6ed85
+      internalID: 9125738223382819943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_21
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 19
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e271ec65158d0994c8aa69ca24c59c33
+      internalID: 5714985925224657262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_22
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 0
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e356ef3ff06c31548aa485bc1627ed41
+      internalID: 3343571166585710466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_23
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 20
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64722109444c4b4684222342e28d380
+      internalID: 8272782750341293061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_24
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 0
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143001722932f5346a8e67271c52eaca
+      internalID: 9114315217830872595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_25
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 0
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65164ac8e135fcd49b791dfcf6702563
+      internalID: 3479117730829562091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_26
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 0
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173db0c5a044e1f408751879f2f4f2fd
+      internalID: -1948748472364147865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_27
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 18
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0385157a07c484ea48c397118e5957
+      internalID: 3911034342657640906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JD2D_28
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 21
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcb524b82823c74babf87af93cb43b7
+      internalID: -5477223720562272977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 816881f4f6f54bf4d8552c19174f4d8f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

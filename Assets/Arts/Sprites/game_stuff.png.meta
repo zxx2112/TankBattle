@@ -1,0 +1,2552 @@
+fileFormatVersion: 2
+guid: c7146fba8000e754482819e2840abead
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4225573696296201192
+    second: game_stuff_0
+  - first:
+      213: 4546897437830533395
+    second: game_stuff_1
+  - first:
+      213: -1357238883022983863
+    second: game_stuff_2
+  - first:
+      213: -7814285871493229241
+    second: game_stuff_3
+  - first:
+      213: -6546185748021148717
+    second: game_stuff_4
+  - first:
+      213: 6012425630197311779
+    second: game_stuff_5
+  - first:
+      213: 4100627638551943190
+    second: game_stuff_6
+  - first:
+      213: -1192582344342171242
+    second: game_stuff_7
+  - first:
+      213: 2564923246418029048
+    second: game_stuff_8
+  - first:
+      213: 5621491538149007600
+    second: game_stuff_9
+  - first:
+      213: 3479140622083289316
+    second: game_stuff_10
+  - first:
+      213: 1096326769331160306
+    second: game_stuff_11
+  - first:
+      213: -3735240010424616280
+    second: game_stuff_12
+  - first:
+      213: -1989068082158617002
+    second: game_stuff_13
+  - first:
+      213: 8982482059384350074
+    second: game_stuff_14
+  - first:
+      213: 7118479852040911707
+    second: game_stuff_15
+  - first:
+      213: 7914092091532395716
+    second: game_stuff_16
+  - first:
+      213: 7361986632931203287
+    second: game_stuff_17
+  - first:
+      213: -2863367092417802461
+    second: game_stuff_18
+  - first:
+      213: -3193011758729890210
+    second: AnglePanel
+  - first:
+      213: -997263927634218886
+    second: game_stuff_20
+  - first:
+      213: -2545115869602655176
+    second: game_stuff_21
+  - first:
+      213: -1981521092506649203
+    second: game_stuff_22
+  - first:
+      213: 7753070597771404263
+    second: game_stuff_23
+  - first:
+      213: 4891611263564263841
+    second: game_stuff_24
+  - first:
+      213: -391501300793994726
+    second: game_stuff_25
+  - first:
+      213: 7399448364860932765
+    second: game_stuff_26
+  - first:
+      213: 2148093278758203171
+    second: game_stuff_27
+  - first:
+      213: 7970486128941148490
+    second: game_stuff_28
+  - first:
+      213: 5256581726928763998
+    second: game_stuff_29
+  - first:
+      213: 481136101956033218
+    second: game_stuff_30
+  - first:
+      213: -7693933998764755429
+    second: game_stuff_31
+  - first:
+      213: 4930223983717009554
+    second: game_stuff_32
+  - first:
+      213: -7331459674087568874
+    second: game_stuff_33
+  - first:
+      213: -7683715859704259120
+    second: game_stuff_34
+  - first:
+      213: -7146767839127051888
+    second: game_stuff_35
+  - first:
+      213: 768549840302158816
+    second: game_stuff_36
+  - first:
+      213: 9003066443780461632
+    second: game_stuff_37
+  - first:
+      213: 3612730048976690726
+    second: game_stuff_38
+  - first:
+      213: 8413100650762231786
+    second: game_stuff_39
+  - first:
+      213: -5241786722335750513
+    second: game_stuff_40
+  - first:
+      213: -7569254660164893689
+    second: game_stuff_41
+  - first:
+      213: 6903335593550693022
+    second: game_stuff_42
+  - first:
+      213: 3257863124890417936
+    second: game_stuff_43
+  - first:
+      213: -5729369576726290756
+    second: game_stuff_44
+  - first:
+      213: 1453021404750508214
+    second: game_stuff_45
+  - first:
+      213: -9029656877426688783
+    second: game_stuff_46
+  - first:
+      213: 1316013570212387532
+    second: game_stuff_47
+  - first:
+      213: 1032388130486586667
+    second: game_stuff_48
+  - first:
+      213: -3241893070109218093
+    second: game_stuff_49
+  - first:
+      213: -8742844363402719977
+    second: game_stuff_50
+  - first:
+      213: -8488698028931175740
+    second: game_stuff_51
+  - first:
+      213: 4205381421428063250
+    second: game_stuff_52
+  - first:
+      213: 6212561549126401504
+    second: game_stuff_53
+  - first:
+      213: -7450818907202431117
+    second: game_stuff_54
+  - first:
+      213: -8660996905730563043
+    second: game_stuff_55
+  - first:
+      213: -4930052653473054703
+    second: game_stuff_56
+  - first:
+      213: -4214242348604133579
+    second: game_stuff_57
+  - first:
+      213: -6048346277666830890
+    second: game_stuff_58
+  - first:
+      213: -8967992244209271150
+    second: game_stuff_59
+  - first:
+      213: -1073480314483094293
+    second: game_stuff_60
+  - first:
+      213: 9133240965338925711
+    second: game_stuff_61
+  - first:
+      213: -4474274408689629309
+    second: game_stuff_62
+  - first:
+      213: 6783392527199421940
+    second: game_stuff_63
+  - first:
+      213: -1173102814775488604
+    second: game_stuff_64
+  - first:
+      213: -7686669127595699787
+    second: game_stuff_65
+  - first:
+      213: -6010539157630027997
+    second: game_stuff_66
+  - first:
+      213: -8561110138932385074
+    second: game_stuff_67
+  - first:
+      213: 6184141662504083489
+    second: game_stuff_68
+  - first:
+      213: -4375824885172995937
+    second: game_stuff_69
+  - first:
+      213: -8953290985232711723
+    second: game_stuff_70
+  - first:
+      213: -7436905770018093531
+    second: game_stuff_71
+  - first:
+      213: -5312893098530523288
+    second: game_stuff_72
+  - first:
+      213: -4875714866819048894
+    second: game_stuff_73
+  - first:
+      213: 5629964585371556520
+    second: game_stuff_74
+  - first:
+      213: 3794566629144916168
+    second: game_stuff_75
+  - first:
+      213: -4063069182918219807
+    second: game_stuff_76
+  - first:
+      213: 8605987409261924025
+    second: game_stuff_77
+  - first:
+      213: 7499129057068274372
+    second: game_stuff_78
+  - first:
+      213: -4096279018600675923
+    second: game_stuff_79
+  - first:
+      213: 3515267370497485281
+    second: game_stuff_80
+  - first:
+      213: 5946040394273110128
+    second: game_stuff_81
+  - first:
+      213: 7315634349855655752
+    second: game_stuff_82
+  - first:
+      213: 505379164945487914
+    second: game_stuff_83
+  - first:
+      213: -277682546162221597
+    second: game_stuff_84
+  - first:
+      213: 4739080751372467995
+    second: game_stuff_85
+  - first:
+      213: -6580090543239317902
+    second: game_stuff_86
+  - first:
+      213: 2926817839532403790
+    second: game_stuff_87
+  - first:
+      213: -4561739335802120751
+    second: game_stuff_88
+  - first:
+      213: 4615396109895586751
+    second: game_stuff_89
+  - first:
+      213: -2149240964142418249
+    second: game_stuff_90
+  - first:
+      213: -640276870256703886
+    second: game_stuff_91
+  - first:
+      213: -5854116112618858151
+    second: game_stuff_92
+  - first:
+      213: 2364690856651343302
+    second: game_stuff_93
+  - first:
+      213: 210274820787407771
+    second: game_stuff_94
+  - first:
+      213: 3752690209241508627
+    second: game_stuff_95
+  - first:
+      213: 1994888172162880174
+    second: game_stuff_96
+  - first:
+      213: 6637569507626068055
+    second: game_stuff_97
+  - first:
+      213: 3248175391345956668
+    second: game_stuff_98
+  - first:
+      213: -369298292803010685
+    second: game_stuff_99
+  - first:
+      213: -31290037716568647
+    second: game_stuff_100
+  - first:
+      213: -3193011758729890210
+    second: Pointer_long
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game_stuff_0
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 276
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff8c9298b2882944b7a66b2a0f167bd
+      internalID: -4225573696296201192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_1
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 263
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d495b7fe1e26043b07bd5b72f09702
+      internalID: 4546897437830533395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 800
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2deff6cd276470b4284f3279b0edf94b
+      internalID: -1357238883022983863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_3
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 249
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b788fa7a8517f64da6461df7446b09b
+      internalID: -7814285871493229241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_4
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 235
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7bc17a7ab2ec848a18b4bc92c2a355
+      internalID: -6546185748021148717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_5
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 221
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e14dc13b59a334893840dae74615b5
+      internalID: 6012425630197311779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_6
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 207
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10fb4ea651670f43b7b48fd273dde45
+      internalID: 4100627638551943190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_7
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 193
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e6dcbad4941044490d548216ed43b7
+      internalID: -1192582344342171242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 179
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d012bf3751958d8438c09ed7ca68508a
+      internalID: 2564923246418029048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898a75ed9f3183c41a269156ccbfa22b
+      internalID: 5621491538149007600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 68
+        width: 166
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0736eb7424f734e8b179e5ad791887
+      internalID: 3479140622083289316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 156
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882d12a6ef0f23043a2ae16917d2f7fc
+      internalID: 1096326769331160306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_12
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 156
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80c8a8f117d9f94a8d4abc2bb96f5ac
+      internalID: -3735240010424616280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_13
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 156
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ada273c3ca140e41bf5730376c8cb1d
+      internalID: -1989068082158617002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_14
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 156
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c1cc6846a29c347824c115fd55674e
+      internalID: 8982482059384350074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_15
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 157
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6b2b3ac26e4f04fba4439714fbbc52
+      internalID: 7118479852040911707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_16
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 157
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a8a9f65fec378468e1e6971511af8b
+      internalID: 7914092091532395716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 158
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5013766e62c8245a183260d9642375
+      internalID: 7361986632931203287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_18
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 156
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b2b13f2a5a9b943baec28e13377e07
+      internalID: -2863367092417802461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnglePanel
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 87
+        width: 86
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5099067, y: 0.4974433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032b7573620db4c449fff812420f4ea4
+      internalID: -3193011758729890210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_20
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717e2096698467b478ca4db123486c61
+      internalID: -997263927634218886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 136
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2108020c55fd1d4d8ebdd714ae4f16d
+      internalID: -2545115869602655176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_22
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 136
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7856022e0f33d4192c5ed85b58bac4
+      internalID: -1981521092506649203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_23
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 137
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3cdb91352fce34cae72e39b2eccb15
+      internalID: 7753070597771404263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_24
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 136
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc9de580f263774aa42962c8dd6cbdc
+      internalID: 4891611263564263841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_25
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 137
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25e71365d48b2f4ea640452c102e165
+      internalID: -391501300793994726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_26
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 137
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586318271943d7b49aab9f28d196b023
+      internalID: 7399448364860932765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_27
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 138
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2c4b1cb7815b242874d88b8466ff79
+      internalID: 2148093278758203171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_28
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 136
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79607db161d9dc4ea275097ae10f1e7
+      internalID: 7970486128941148490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_29
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 151
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60557f75bebf4f4a954c1abc63aed35
+      internalID: 5256581726928763998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e838fc917d31046a69ea5fbe2b1da4
+      internalID: 481136101956033218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_31
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 137
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2d5bce3c5fd3c4fb4d99959c83a74f
+      internalID: -7693933998764755429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_32
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 77
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0037ca9f9785248a65152077f26392
+      internalID: 4930223983717009554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_33
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 103
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d8f9e9170d74642b05dc2d7e015783
+      internalID: -7331459674087568874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_34
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 101
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d1d0bc5f659954fb0a9f513f9eb3a9
+      internalID: -7683715859704259120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_35
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 125
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d36e313222ba3744a6e1dc7a37d8677
+      internalID: -7146767839127051888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_36
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 117
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e1cbb780df284488d6f43b67b8ee05
+      internalID: 768549840302158816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_37
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 127
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c383924f0c0df48a6ae4fe396894b4
+      internalID: 9003066443780461632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_38
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 101
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c695be4bc0ccdc944b589b55b4a7af42
+      internalID: 3612730048976690726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_39
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 97
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324b860ca48c7b44394f03ee2ff359c7
+      internalID: 8413100650762231786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_40
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced338a54862f3943b6011dc92c47afc
+      internalID: -5241786722335750513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_41
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a984c3cd9815374c874fc8d2d6c8408
+      internalID: -7569254660164893689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_42
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03285004b254ca748add67b9818681ab
+      internalID: 6903335593550693022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_43
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f5c0e7a9a86514cb9c00ad11bb5ab8
+      internalID: 3257863124890417936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_44
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2c72eb8f6606d42bcee60ec929f351
+      internalID: -5729369576726290756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_45
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e3afbf972588c42a12748f5830e489
+      internalID: 1453021404750508214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_46
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1b37c2287af094bb7eeeef05a01176
+      internalID: -9029656877426688783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_47
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce19c1019ed91e4f93e344fd94aeacc
+      internalID: 1316013570212387532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_48
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d035466f2beb204095a8509f7d680b4
+      internalID: 1032388130486586667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_49
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd75afd99ab5ea94eae8223ea100a346
+      internalID: -3241893070109218093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_50
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 108
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad9e220f3cba7143bbc7ae032e329c6
+      internalID: -8742844363402719977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_51
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f9517383a204b4889ce97c5549827f
+      internalID: -8488698028931175740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acd79efcdafad54b9dde47589e73285
+      internalID: 4205381421428063250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_53
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 92
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b657477741969b4ea320dc4e3d90d00
+      internalID: 6212561549126401504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_54
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 92
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c55424440264c241b684f1e83db82fa
+      internalID: -7450818907202431117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_55
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 92
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dac286d5f945a40a20e1dbaf8d7c91
+      internalID: -8660996905730563043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_56
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 92
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70cff64278892449a7bf77a9e8cccce
+      internalID: -4930052653473054703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_57
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 92
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a4293d4ac758b48a62fc7d4a3cafc5
+      internalID: -4214242348604133579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_58
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 92
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6905c5030754d244b1a9e3d6f693e42
+      internalID: -6048346277666830890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_59
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 92
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e652d4f89e3489d42b0e35226764e27a
+      internalID: -8967992244209271150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_60
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 92
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03941066d5562bd418476e49da1b185d
+      internalID: -1073480314483094293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_61
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 82
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c0109ae8a55c4580f710a88c6ff92
+      internalID: 9133240965338925711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_62
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 82
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c273baee81fcb914795eff854a4bf4dc
+      internalID: -4474274408689629309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_63
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d044be39117d584680cc92d5d1a2afd
+      internalID: 6783392527199421940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_64
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 70
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020db9656ed321489836c78d339acc2
+      internalID: -1173102814775488604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_65
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4ac8ad14d267f4faae6f9383cb0b28
+      internalID: -7686669127595699787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_66
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 70
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00248f867ce1dd41ba0068279823cd0
+      internalID: -6010539157630027997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_67
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb582a2f45618e4d8c284c24c56d141
+      internalID: -8561110138932385074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_68
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0cfd0a5b418da47a534c9bec369814
+      internalID: 6184141662504083489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_69
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452cf9c75c0bc0c4fb9ebb110fc48f14
+      internalID: -4375824885172995937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_70
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bb9a5ae94fa6d459d0cf259c5f90d1
+      internalID: -8953290985232711723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_71
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c178def7a8eaf04787007b1bcee4d52
+      internalID: -7436905770018093531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_72
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1687f02ca5b31994bbc4fd2fec48444d
+      internalID: -5312893098530523288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_73
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 73
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35e32bba1eefb24a8994a96874c186f
+      internalID: -4875714866819048894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_74
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 68
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d871a542bdde54080afcd9fe6bc6bc
+      internalID: 5629964585371556520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_75
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 68
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd468785d9d8914fb72d53b08eeb9f3
+      internalID: 3794566629144916168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_76
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 48
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b5918972b047041b1ad0fa968e9521
+      internalID: -4063069182918219807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_77
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 48
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dab720202d388408c8bb6ed186f200
+      internalID: 8605987409261924025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_78
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 48
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53ed2871485e0b4baa68545c2410184
+      internalID: 7499129057068274372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_79
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 48
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18ad44a20025464ea22a0da662827fe
+      internalID: -4096279018600675923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_80
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 48
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb187c0e8b3458438f7f9d532ffd5ae
+      internalID: 3515267370497485281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_81
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 48
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f2e372a4d8ac54184cf69f2a7f88bd
+      internalID: 5946040394273110128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_82
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 48
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41145d01f25d9e14d8e9f9bb1b478ab7
+      internalID: 7315634349855655752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_83
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 48
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d74e4f358ea1504a97bc239786e78a4
+      internalID: 505379164945487914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_84
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 48
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77f3acb7bd292a43b5aaeefdf4467f8
+      internalID: -277682546162221597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_85
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 48
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d425169ebccaae4fb89cc0da2ad1705
+      internalID: 4739080751372467995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 400
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98af7fae30847d4080741382788f5b0
+      internalID: -6580090543239317902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_87
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 51
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43da221549062642b7e708f43e658a2
+      internalID: 2926817839532403790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 209
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f147c51e26684e44999ceca387aa743
+      internalID: -4561739335802120751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_89
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 16
+        width: 209
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6247c2f113e8d34292d800475493cb0
+      internalID: 4615396109895586751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_90
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 26
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6553ddd579c414d40a07420bc3ec77a0
+      internalID: -2149240964142418249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_91
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 26
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3b55e3425d1894382da12d8eeaa82e
+      internalID: -640276870256703886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_92
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 26
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d87097fe3c27f4f8973b2d5ddb2d71
+      internalID: -5854116112618858151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_93
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 26
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8af5521b91a1e43bed80c6bdad000c
+      internalID: 2364690856651343302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_94
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 26
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa5311bb949f854f8f56baad370cee2
+      internalID: 210274820787407771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_95
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 26
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1f36cdcfb716b4d945fc6d4cc15920
+      internalID: 3752690209241508627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_96
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 26
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef74c62246d6e040ba9ba0ed464ef5a
+      internalID: 1994888172162880174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_97
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 26
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30615c2e68e2ad948bed01cd82735444
+      internalID: 6637569507626068055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_98
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 26
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de149bd7c9f94d439d6ef3503073c75
+      internalID: 3248175391345956668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_99
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 26
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df8c54890a8b014e9123f92110abd3d
+      internalID: -369298292803010685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game_stuff_100
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 28
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418b792f41e56994fb2262a98181a830
+      internalID: -31290037716568647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pointer_long
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 71
+        width: 88
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5000011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0ec0710671e2f4495216ee0d347aff
+      internalID: -3193011758729890210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 06189e5bcfce1ca40ae5c135675a55db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

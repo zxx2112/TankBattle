@@ -1,0 +1,10 @@
+﻿Smart Inspector
+How to
+
+To open the Smart Inspector view in Unity go to Tools/Smart/Inspector.
+Select the objects from your Hierarchy or SceneView that you wish to
+edit/inspector/view and toggle the components that you want a active
+or inactive from the dropdown field.
+
+Right click anywhere in the SmartInspector Window to display different
+options.

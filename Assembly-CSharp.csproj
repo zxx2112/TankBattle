@@ -1,0 +1,1059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <CscToolPath>E:\Program Files\Unity\Hub\Editor\2020.1.0a5\Editor\Data\Tools\RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.bat</CscToolExe>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{333E24FA-CDE4-8BA3-41D1-9CB28DEE9BBE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_1_0;UNITY_2020_1;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;PREFAB_IN_CONTEXT_EDITING;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;MIRROR;MIRROR_1726_OR_NEWER;MIRROR_3_0_OR_NEWER;ODIN_INSPECTOR;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;CS0649;IDE0051</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;CS0649;IDE0051</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>2020.1.0a5</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Program Files\Unity\Hub\Editor\2020.1.0a5\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:\Program Files\Unity\Hub\Editor\2020.1.0a5\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Destructible 2D\Examples\Gallery Pack\Scripts\D2dGalleryGun.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Gallery Pack\Scripts\D2dGalleryTarget.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Racing Pack\Scripts\D2dCarEngineSound.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Racing Pack\Scripts\D2dPlayerCar.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Racing Pack\Scripts\D2dWheel.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Spaceship Pack\Scripts\D2dBullet.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Spaceship Pack\Scripts\D2dGun.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Spaceship Pack\Scripts\D2dPlayerSpaceship.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Spaceship Pack\Scripts\D2dSpaceshipJumper.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Spaceship Pack\Scripts\D2dThruster.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dBackground.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dCameraFlash.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dCameraShake.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dClickToSpawn.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dClickToStamp.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dDragToFollow.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dDragToSlice.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dDragToThrow.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dExplosion.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dFlash.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dFollow.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dHealCuts.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dHorizontalBackground.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dRandomizeSound.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dRepeatStamp.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dShake.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dSlicer.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dSplitSpawner.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dSwap.cs" />
+    <Compile Include="Assets\Destructible 2D\Examples\Tutorial\Scripts\D2dWaypoints.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dBlur.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dCache.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dCalculateMass.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dCollider.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dCollisionHandler.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dContext.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dDamage.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dDestroyer.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dDestructible.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dDestructibleSprite.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dDestructible_Paint.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dDistanceField.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dEdgeCollider.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dEdgeSquares.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dEditor.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dFixture.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dFixtureGroup.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dFracturer.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dHalve.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dHelper.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dImpactDamage.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dImpactFissure.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dImpactSpawner.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dLinkedBehaviour.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dPolygonCollider.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dPolygonSquares.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dRect.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dRequirements.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dRetainVelocity.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dSlice.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dSnapshot.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dSnapshotData.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dSplitter.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dStamp.cs" />
+    <Compile Include="Assets\Destructible 2D\Scripts\D2dTrim.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterBody.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterBody2D.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterBody3D.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterCollisions.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterDebug_Events.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterDebug_Info.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterGraphics.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterMotor.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterMotorLayersProfile.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CharacterMotorSettings.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\CustomClassDrawer.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\MotionCustomBehaviour.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\PhysicsEntity.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\PhysicsEntity2D.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\PhysicsEntity3D.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\PhysicsUtilities.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\Range_NoSliderAttribute.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\UpdateCustomBehaviour.cs" />
+    <Compile Include="Assets\Kinematic2D\Core\Scripts\Utilities.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\Camera2D.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\CharacterRotationShift.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\Destroyer.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\FollowObject.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\FpsCounter.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\Platform.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\PlatformNode.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\PrefabInstantiator.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\ShapeAnim.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\SimpleRotation.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\SineAnim.cs" />
+    <Compile Include="Assets\Kinematic2D\Extras\Scripts\Teleport.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\AI\CharacterAISequenceBehaviourEditor.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Areas\MovementArea.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Areas\VelocityArea.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Brain\CharacterHybridBrain.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Brain\CharacterHybridBrainEditor.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\CharacterAbility.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\CharacterMovementAbility.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\CharacterSizeAbility.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\HorizontalMovementProfile.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\CornerAlignment.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\Dash.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\HorizontalMovement.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\JetPack.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\JumpDown.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\VerticalMovement.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\WallAlignment.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\WallJump.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Movement\WallSlide.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Pose\CharacterFacingDirection.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\Pose\Crouch.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\Character Abilities\VerticalMovementProfile.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\CharacterAIBrain.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\CharacterAISequenceBehaviour.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\CharacterAnimation.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\CharacterBrain.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\CharacterController2D.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\CharacterHumanBrain.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\CharacterInputData.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\CharacterMovementProfile.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\StateMachine\StateMachineController.cs" />
+    <Compile Include="Assets\Kinematic2D\Implementation\Scripts\StateMachine\States.cs" />
+    <Compile Include="Assets\Kinematic2D\Walkthrough\Scripts\WalkthroughManager.cs" />
+    <Compile Include="Assets\Scenes\DynamicConvertTest\DynamicConvert.cs" />
+    <Compile Include="Assets\Scenes\NetworkTest\Controls.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Bullet.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\DebugCharacterController2D.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\BulletTag.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\ClientTag.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\CurrentTurnActorTagProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\ExplodeEventProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\GameStartEventProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\GameStateComponentProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\InfoTagProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\NextTurnDoneEventProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\NextTurnEventProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Components\ServerTag.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Systems\GameStateMachineSystem.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Systems\PlayerInitSystem.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\ECS\Systems\TurnSystem.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\GameFlowController.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\GameState.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\InputActions.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\InputHandler.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\Angle.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\CurrentGameState.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\CurrentTurnActor.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\CurrentTurnNumber.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\DelayRank.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\ForcePercent.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\Id.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\IsCharging.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Network\Messages\GameStartMessage.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\NetworkCharacterBain.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\NetworkCharacterController2D.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\NetworkHorizontalMovement.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\NetworkManagerTankBattle.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\NetworkRoomManager.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\Player.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\PlayerTagProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\SceneLoader.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\TerrainStampGenerator.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\Logic\TurnService.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\View\AngleView.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\View\DebugView.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\View\ECS\Components\LinkedEntityComponent.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\View\ECS\Components\PlayerViewPrefabProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\View\PlayerView.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\View\PlayerViewGameObjectPrefabProxy.cs" />
+    <Compile Include="Assets\Scenes\TankBattle\View\PlayerViewTagProxy.cs" />
+    <Compile Include="Assets\Scripts\StringConst.cs" />
+    <Compile Include="Assets\Smart\SmartInspector\Scripts\Player.cs" />
+    <Compile Include="Assets\Smart\Utility\Keylist.cs" />
+    <Compile Include="Assets\Smart\Utility\UI\SUI_EditorGUI.cs" />
+    <Compile Include="Assets\Smart\Utility\UI\SUI_EditorGUILayout.cs" />
+    <Compile Include="Assets\Smart\Utility\UI\SUI_GUILayout.cs" />
+    <Compile Include="Assets\Smart\Utility\UI\SUI_Options.cs" />
+    <Compile Include="Assets\Smart\Utility\UI\SUI_Properties.cs" />
+    <Compile Include="Assets\Utils\FastGizmos\Scripts\FastGizmos.cs" />
+    <Compile Include="Assets\Utils\FastGizmos\Scripts\FastGizmosExtra.cs" />
+    <Compile Include="Assets\Utils\FastGizmos\Scripts\FastGizmosHandleText.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Smart\SmartInspector\Documenatation.txt" />
+    <None Include="Assets\Destructible 2D\Examples\Tutorial\Fonts\OFL.txt" />
+    <None Include="Assets\Destructible 2D\Shaders\Keep Alpha + Color.shader" />
+    <None Include="Assets\Kinematic2D\Documentation\README.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Mirror\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Destructible 2D\Shaders\Default + Color.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Destructible 2D\Shaders\Diffuse.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Destructible 2D\Shaders\Keep Alpha.shader" />
+    <None Include="Assets\Smart\SmartInspector\HowTo.txt" />
+    <None Include="Assets\Mirror\License.txt" />
+    <None Include="Assets\Destructible 2D\Shaders\Default.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Destructible 2D\Shaders\Outline.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Properties">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Jobs">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Jobs.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.StaticTypeRegistry">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Entities.StaticTypeRegistry.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Scenes.Hybrid">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Scenes.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Extensions">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="projectCloner">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/projectCloner.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Extensions.Hybrid">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rendering.Hybrid">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.BuildUtils">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Properties">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.quicksearch">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Transforms.Hybrid">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Mdb">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Pdb">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.CecilX.Rocks">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Mirror/Plugins/Mono.Cecil/Mono.CecilX.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Telepathy">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Mirror/Runtime/Transport/Telepathy/Telepathy.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/PackageCache/com.unity.burst@1.1.2/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:/UnityProjects/TankBattleNew/Library/PackageCache/com.unity.collections@0.1.1-preview/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>E:/Program Files/Unity/Hub/Editor/2020.1.0a5/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.InternalAPIEngineBridgeDev.002.csproj">
+      <Project>{683D97C6-59AF-318D-7B47-A7471B4984DC}</Project>
+      <Name>Unity.InternalAPIEngineBridgeDev.002</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
+      <Project>{11D91E16-6772-D94B-24EF-9ED44A5B2066}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Weaver.csproj">
+      <Project>{7EAD9B59-2627-A76B-CD3F-2256ED199E61}</Project>
+      <Name>Mirror.Weaver</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Ecs.csproj">
+      <Project>{1A63FDA0-CAC7-04C5-A9BA-D916BC4AFE03}</Project>
+      <Name>Unity.VisualScripting.Ecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Components.csproj">
+      <Project>{AEFC2F0B-3EC7-353A-7237-D85754C38D5D}</Project>
+      <Name>Mirror.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Ecs.Editor.csproj">
+      <Project>{6CADFEDC-8DCF-450E-716A-8E03FE063CB8}</Project>
+      <Name>Unity.VisualScripting.Ecs.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Examples.csproj">
+      <Project>{90925245-0D3C-3726-E672-1FBEBD344003}</Project>
+      <Name>Mirror.Examples</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.GraphTools.Foundation.csproj">
+      <Project>{EBBB5C2C-CC82-B47B-D9E2-3296F86B3AA8}</Project>
+      <Name>Unity.GraphTools.Foundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Searcher.Editor.csproj">
+      <Project>{3AB1782B-3C00-5D06-9AAA-EBCAEF5184F0}</Project>
+      <Name>Unity.Searcher.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.GraphTools.Foundation.Editor.csproj">
+      <Project>{154AB4F3-1A61-9ED0-44EF-9557D7FBCEF2}</Project>
+      <Name>Unity.GraphTools.Foundation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.csproj">
+      <Project>{B5CBD380-D292-6E77-B660-57E6C1C9C173}</Project>
+      <Name>Mirror</Name>
+    </ProjectReference>
+    <ProjectReference Include="Mirror.Editor.csproj">
+      <Project>{94CD1D30-FC61-9340-76C3-A341F75525EF}</Project>
+      <Name>Mirror.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
+      <Project>{119E23D0-42B2-1E73-18BE-45094FB2CFFC}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
